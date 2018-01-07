@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href=style.css>
+	<title>Title of the document</title>
+	</head>
+		<body>
+			<div id="container">
+				<header>
+
+					<div id=socialmedia>
+						<a href="https://www.facebook.com/"><img class="social" src="/Users/sarajannetty/Desktop/Rms_File/links/facebook.jpg"></a>
+						<a href="https://www.youtube.com/"><img class="social" src="/Users/sarajannetty/Desktop/Rms_File/links/youtube.jpg"></a>
+						<a href="https://uk.linkedin.com/in/rmsinternational"> <img class="social" src="/Users/sarajannetty/Desktop/Rms_File/links/linkedin.jpg" > </a>
+					</div>
+					
+					<!-- Navigation -->
+						<nav class="w3-bar w3-black">
+						  <a href="#home" class="navbar">home</a>
+						  <a href="#about Us" class="navbar">about us</a>
+						  <a href="#branches" class="navbar">branches</a>
+						  <a href="#brands" class="navbar">brands</a>
+						  <a href="#contact" class="navbar">contact</a>
+						</nav>
+					<h1></h1>
+				</header>
+
+				<div id="banner">
+					<!-- Slide Show -->
+					<section>
+					  <img class="mySlides" src="/Users/sarajannetty/Desktop/Rms_File/links/kids.jpg" style="width:100%">
+					  <img class="mySlides" img class="mySlides" src="/Users/sarajannetty/Desktop/Rms_File/links/butt.jpg" style="width:100%">
+					  <img class="mySlides" img class="mySlides" src="/Users/sarajannetty/Desktop/Rms_File/links/art.jpg" style="width:100%">
+					</section>
+						<script>
+						// Automatic Slideshow - change image every 3 seconds
+						var myIndex = 0;
+						carousel();
+
+						function carousel() {
+						    var i;
+						    var x = document.getElementsByClassName("mySlides");
+						    for (i = 0; i < x.length; i++) {
+						       x[i].style.display = "none";
+						    }
+						    myIndex++;
+						    if (myIndex > x.length) {myIndex = 1}
+						    x[myIndex-1].style.display = "block";
+						    setTimeout(carousel, 5000);
+						}
+						</script>
+				</div>
+
+				<div id="content">
+					
+					<div id="quote"> 
+						<p class="quote">“Our products are carefully selected to ensure<br>that our customers have the very best retail<br> solutions, at the best possible price.”</p>
+					</div>
+
+					<p> content goes here</p>
+				</div>
+			</div>
+
+		</body>
+
+		</html>
